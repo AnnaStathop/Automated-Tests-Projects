@@ -1,0 +1,18 @@
+{
+  "name": "flight-booking-tests",
+  "version": "1.0.0",
+  "description": "",
+  "target": "esnext",
+  "module": "commonjs",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "dependencies": {
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.44.1",
+    "ts-node": "^10.9.2"
+  }
+}
